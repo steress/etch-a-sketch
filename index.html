@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-A-Sketch</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="header">
+        <img src="./logo.png" alt="Etch-A-Sketch Logo" class="logo">
+    </div>
+    <div class="container">
+        <div class="menu">
+            <button class="button" id="reset">Reset</button>
+            <button class="button" id="black">Black</button>
+            <button class="button" id="RGB">RGB</button>
+            <button class="button" id="eraser">Eraser</button>
+            <input type="color" id="color">
+            <div class="slider">
+                <input type="range" min="1" max="30" value="12" id="slider">
+                <span>Grid Size: <span class="spanGrid">12 x 12</span></span>
+            </div>
+            
+        </div>
+        </div>
+        <div id="grid"></div>
+        <div class="footer">Copyright © 2022 steress</div>
+    <script src="index.js" defer></script>
+</body>
+</html>
